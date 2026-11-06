@@ -1,0 +1,17 @@
+# Bỏ qua thư mục build của Visual Studio
+.vs/
+x64/
+x86/
+Debug/
+Release/
+
+# Bỏ qua các file trung gian và nhị phân
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.suo
+*.user
+
+# (Tùy chọn) Bỏ qua file .dll của SFML nếu bạn không muốn repo quá nặng
+# *.dll
